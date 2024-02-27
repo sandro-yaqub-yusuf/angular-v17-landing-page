@@ -1,27 +1,44 @@
-# LandingPage
+# Angular 17 - KITAB - LANDING PAGE
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 17.2.1.
+* Versão do NODEJS utilizado: 18.19.1 LTS
+* Linguagem principal utilizada: Angular 17 CLI v17.1.0
+* Outras linguagens utilizadas: HTML5, SCSS e Javascript
+* Frameworks utilizadas: ESLINT
+* Banco de Dados utilizado: nenhum
+* Editor utilizado: Visual Studio Code
+* Informações extras: Precisa ter conhecimentos médios em Javascript e Typescript
 
-## Development server
+----
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+## Descrição
 
-## Code scaffolding
+Projeto em Angular 17 (site em HTML5, SCSS, Javascript e Typescript) para exibir um site do tipo Landing Page.
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+----
 
-## Build
+## Instalação Global dos pacotes para o NODEJS
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+1. Instalar o NVM de acordo com o seu SO do git oficial (https://github.com/nvm-sh/nvm) e depois de instalado, saia do terminal e entre novamente e verifique se o mesmo foi instalado com o seguinte comando => nvm -v
+2. Instalar o NODEJS versão 18.19.1 LTS do site oficial (https://nodejs.org) com o seguinte comando => nvm install 18.19.1
+3. Ativar o NODEJS com o seguinte comando => nvm use 18.19.1
+4. Instalar a framework Angular 17 CLI, utilizando os seguintes comandos:
+   npm cache clean --force
+   npm config delete proxy
+   npm config delete https-proxy
+   npm config rm proxy
+   npm config rm https-proxy => após este comando, sair do terminal e entrar novamente
+   npm install -g @angular/cli
+5. Verificar a versão com o seguinte comando => ng version
 
-## Running unit tests
+----
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+## Para rodar o projeto
 
-## Running end-to-end tests
+1. Abra um terminal ou prompt de comando na pasta do projeto e digite => ng serve
+2. Abra um browser e digite na URL => localhost:4200
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+----
 
-## Further help
+## Sobre o Autor
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+SANDRO YAQUB YUSUF - Analista & Programador Sênior FULL-STACK - Trabalha com desenvolvimento de softwares desde 1990, passando pelas linguagens COBOL, CLIPPER, VISUAL BASIC 6, ASP Clássico, ASP.NET Framework, ASP.NET Core, PHP (Laravel) e NodeJS. Possui conhecimentos em banco de dados como SQL-SERVER, ORACLE, MySQL, MariaDB, MongoDB e SQLite. Também possui conhecimentos em HTML5, CSS3, TYPESCRIPT e JAVASCRIPT. Para as frameworks de desenvolvimento de FRONT-END, possui conhecimentos em ANGULAR, VUEJS e REACT JS. Pratica o modelo CLEAN ARCHITECTURE usando os conhecimentos em DDD, SOLID, TDD e LGPD.
