@@ -1,7 +1,7 @@
 # Angular 17 - KITAB - LANDING PAGE
 
 * Versão do NODEJS utilizado: 18.19.1 LTS
-* Linguagem principal utilizada: Angular 17 CLI v17.1.0
+* Linguagem principal utilizada: Angular 17 CLI v17.2.1
 * Outras linguagens utilizadas: HTML5, SCSS e Javascript
 * Frameworks utilizadas: ESLINT
 * Banco de Dados utilizado: nenhum
