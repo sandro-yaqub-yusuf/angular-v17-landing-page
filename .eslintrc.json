@@ -20,7 +20,10 @@
         "plugin:@typescript-eslint/recommended",
         "plugin:@angular-eslint/template/process-inline-templates"
       ],
-      "rules": {}
+      "rules": {
+        "@typescript-eslint/no-explicit-any": "off",
+        "@typescript-eslint/explicit-module-boundary-types": "off"
+      }
     },
     {
       "files": [

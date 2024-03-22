@@ -3,7 +3,7 @@
 * Versão do NODEJS utilizado: 18.19.1 LTS
 * Linguagem principal utilizada: Angular 17 CLI v17.2.1
 * Outras linguagens utilizadas: HTML5, SCSS e Javascript
-* Frameworks utilizadas: ESLINT
+* Componentes utilizados: nenhum
 * Banco de Dados utilizado: nenhum
 * Editor utilizado: Visual Studio Code
 * Informações extras: Precisa ter conhecimentos médios em Javascript e Typescript
@@ -12,7 +12,7 @@
 
 ## Descrição
 
-Projeto em Angular 17 (site em HTML5, SCSS, Javascript e Typescript) para exibir um site do tipo Landing Page.
+Projeto em Angular 17 para exibir um site do tipo Landing Page.
 
 ----
 
@@ -23,10 +23,6 @@ Projeto em Angular 17 (site em HTML5, SCSS, Javascript e Typescript) para exibir
 3. Ativar o NODEJS com o seguinte comando => nvm use 18.19.1
 4. Instalar a framework Angular 17 CLI, utilizando os seguintes comandos:
    npm cache clean --force
-   npm config delete proxy
-   npm config delete https-proxy
-   npm config rm proxy
-   npm config rm https-proxy => após este comando, sair do terminal e entrar novamente
    npm install -g @angular/cli
 5. Verificar a versão com o seguinte comando => ng version
 
